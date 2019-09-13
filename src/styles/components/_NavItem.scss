@@ -1,0 +1,42 @@
+.nav-item-wrapper {
+    position: relative;
+    width: 100%;
+}
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    background-color: $main;
+    height: 100%;
+    width: 100%;
+}
+.nav-item:hover {
+    color: $link-color;
+}
+.dropdown-main {
+    position: absolute;
+    top: -200px;
+    background-color: darken($main, 3%);
+    transition: top .3s;
+    width: 100%;
+    box-shadow: 1px 1px 10px grey;
+
+    li {
+        padding-left: 5px;
+    }
+
+    li:hover {
+        color: $link-color;
+        cursor: pointer;
+    }
+}
+
+.nav-item-wrapper:hover {
+    .dropdown-main {
+        top: 50px;
+        transition: top .3s;
+    }
+}

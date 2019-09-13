@@ -1,0 +1,31 @@
+.nav-main {
+    background-color: $main;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 100;
+
+    .nav-left {
+        width: 45%;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-right {
+        width: 45%;
+        float: right;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-center {
+        width: 10%;
+        text-align: center;
+        border-radius: 50%;
+        background-color: $main-accent;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+}

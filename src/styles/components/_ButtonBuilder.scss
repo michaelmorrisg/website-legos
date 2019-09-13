@@ -1,0 +1,16 @@
+.button-main {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: $secondary-accent;
+
+    &:hover {
+        background-color: lighten($secondary-accent, 10%);
+    }
+
+    &:active {
+        background-color: darken($secondary-accent, 10%);
+    }
+}

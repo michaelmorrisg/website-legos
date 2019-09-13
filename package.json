@@ -1,0 +1,26 @@
+{
+  "name": "@mgmorris/website-legos",
+  "version": "1.0.0",
+  "description": "Building blocks for a quick website",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}

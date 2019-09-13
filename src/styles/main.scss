@@ -1,0 +1,14 @@
+@import "reset";
+@import "colors";
+
+// Components
+@import "components/NavLogoCenter";
+@import "components/NavItem";
+@import "components/BannerwithImage";
+@import "components/TitleDescriptionAction";
+@import "components/ButtonBuilder";
+@import "components/Divider";
+
+body {
+    font-family: 'Manjari', sans-serif;
+}
