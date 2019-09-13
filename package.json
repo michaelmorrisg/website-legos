@@ -28,6 +28,6 @@
     "quick-sites"
   ],
   "files": [
-    "dist/*"
+    "dist/*.scss"
   ]
 }
