@@ -1,6 +1,6 @@
 {
   "name": "@mgmorris/website-legos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Building blocks for a quick website",
   "main": "dist/index.js",
   "repository": "mgmorris/website-legos",
