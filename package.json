@@ -1,5 +1,5 @@
 {
-  "name": "@mmorris/website-legos",
+  "name": "@mmorris/website-blocks",
   "version": "1.5.0",
   "description": "Website building blocks",
   "main": "index.js",
