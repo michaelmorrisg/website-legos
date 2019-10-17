@@ -1,32 +1,32 @@
 {
-  "name": "@mgmorris/website-legos",
-  "version": "1.0.4",
-  "description": "Building blocks for a quick website",
-  "main": "dist/index.js",
-  "repository": "mgmorris/website-legos",
+  "name": "@mmorris/website-legos",
+  "version": "1.5.0",
+  "description": "Website building blocks",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rm -rf ./dist && npm run build",
-    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+    "build": "./node_modules/.bin/babel src --out-file index.js"
   },
-  "author": "mgmorris",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmorrisg/website-legos.git"
+  },
+  "author": "Mike Morris",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "react": "^16.9.0"
+  "bugs": {
+    "url": "https://github.com/michaelmorrisg/website-legos/issues"
   },
+  "homepage": "https://github.com/michaelmorrisg/website-legos#readme",
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
   },
-  "keywords": [
-    "react",
-    "website-building",
-    "quick-sites"
-  ],
-  "files": [
-    "dist/*"
-  ]
+  "devDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  }
 }
